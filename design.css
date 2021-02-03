@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family-Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.wrapper{
+	background: url(backg.png);
+	background-size: cover;
+	height: 1650px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+
+.logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Roboto', sans-serif;
+	transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+
+.wrapper .center{
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	width: 50%;
+	background-color: rgba(0,0,0, 0.7);
+	height: 150vh;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.center h2{
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 95%;
+	font-size: 25px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.center p{
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 95%;
+	font-size: 18px;
+	margin: 20px auto;
+	text-align: left;
+	font-style: italic;
+}
+
+.center table{
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 95%;
+	font-size: 18px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.center li{
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 75%;
+	font-size: 18px;
+	margin: 10px auto;
+	text-align: left;
+}
+
+.wrapper .left{
+	position: absolute;
+	top: 15%;
+	left: 13%;
+	width: 20%;
+	background-color: rgba(0,0,0, 0.7);
+	height: 150vh;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.left img{
+	margin-top: 10%;
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.left h1{
+	color: wheat;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	width: 100%;
+	font-size: 25px;
+	margin: 10px auto;
+}
+
+.left h3{
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 95%;
+	font-size: 18px;
+	margin: 10px auto;
+	text-align: left;
+}
+
+.left li{
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 75%;
+	font-size: 18px;
+	margin: 10px auto;
+	text-align: left;
+}
+
